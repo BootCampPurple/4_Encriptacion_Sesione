@@ -20,11 +20,11 @@ class BCPApplication : Application() {
             private set
 
 
-        private val countDownTimer = object : CountDownTimer(Constants.SESSION_APP, 1000) {
+        private val countDownTimer = object : CountDownTimer(20000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
 
                 when (millisUntilFinished) {
-                    in Constants.SESSION_EXPIRE_START..Constants.SESSION_EXPIRE_END -> sessionListener.onSessionWillExpire()
+                    in 13000..14000 -> sessionListener.onSessionWillExpire()
 
                 }
 

@@ -12,6 +12,12 @@ open class BaseActivity : AppCompatActivity(), ISessionProtocol {
 
     private lateinit var materialDialog: MaterialDialog
 
+    override fun onResume() {
+        super.onResume()
+        BCPApplication.registerSessionListener(this)
+
+    }
+
 //region interface session
 
     override fun onSessionStart() {
@@ -36,6 +42,8 @@ open class BaseActivity : AppCompatActivity(), ISessionProtocol {
             negativeButton(R.string.general_no) { dialog ->
                 dialog.dismiss()
                 BCPApplication.finishSession()
+
+                finish()
             }
 
 

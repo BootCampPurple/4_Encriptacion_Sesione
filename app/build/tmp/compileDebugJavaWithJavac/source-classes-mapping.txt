@@ -1,0 +1,8 @@
+pe/com/bootcamp/encriptacionysesion/databinding/ActivityMainBinding.java
+ pe.com.bootcamp.encriptacionysesion.databinding.ActivityMainBinding
+pe/com/bootcamp/encriptacionysesion/BuildConfig.java
+ pe.com.bootcamp.encriptacionysesion.BuildConfig
+pe/com/bootcamp/encriptacionysesion/databinding/ActivityEncriptarBinding.java
+ pe.com.bootcamp.encriptacionysesion.databinding.ActivityEncriptarBinding
+pe/com/bootcamp/encriptacionysesion/databinding/ItemDesencriptadoBinding.java
+ pe.com.bootcamp.encriptacionysesion.databinding.ItemDesencriptadoBinding

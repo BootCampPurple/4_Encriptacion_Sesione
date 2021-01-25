@@ -13,7 +13,7 @@ class EncriptadoAdapter() : RecyclerView.Adapter<EncriptadoAdapter.ViewHolder>()
     lateinit var itemClickListener: ItemClickListener<Encriptacion>
 
 
-    var arrayDesencriptado: List<Encriptacion> = ArrayList()
+    var arrayDesencriptado: MutableList<Encriptacion> = ArrayList()
         set(value) {
             field = value
             notifyDataSetChanged()
@@ -53,6 +53,10 @@ class EncriptadoAdapter() : RecyclerView.Adapter<EncriptadoAdapter.ViewHolder>()
         fun bind(encrypt: Encriptacion) {
 
             binding = itemBinding
+
+            binding.tviEncriptado.text = encrypt.encriptado
+            binding.tviDesencriptado.text = encrypt.desencriptado
+
 
 
         }

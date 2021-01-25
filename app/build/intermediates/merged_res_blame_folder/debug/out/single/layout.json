@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_encriptar.xml",
+        "source": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/src/main/res/layout/activity_encriptar.xml"
+    },
+    {
+        "merged": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_desencriptado.xml",
+        "source": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/src/main/res/layout/item_desencriptado.xml"
+    },
+    {
+        "merged": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/riccmp/Documents/android/bootcampAndroid/4_Encriptacion_Sesione/app/src/main/res/layout/activity_main.xml"
+    }
+]
