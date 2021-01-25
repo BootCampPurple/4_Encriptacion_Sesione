@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Encriptacion y sesion</string>
+
+    <string name="general_yes">Sí</string>
+    <string name="general_no">No</string>
+    <string name="general_oops">Mensaje</string>
+</resources>
