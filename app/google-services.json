@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "594286422691",
+    "project_id": "encriptacion-y-sesion",
+    "storage_bucket": "encriptacion-y-sesion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594286422691:android:24adaafbf9503e77452d16",
+        "android_client_info": {
+          "package_name": "pe.com.bootcamp.encriptacionysesion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594286422691-iua2orccdn3gmlhl7uousn0mt72frbdq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8xbVMRCxuKKqQWwU_K338W2MsfWzXy6I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594286422691-iua2orccdn3gmlhl7uousn0mt72frbdq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
